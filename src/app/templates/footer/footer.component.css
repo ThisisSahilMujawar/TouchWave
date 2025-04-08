@@ -1,0 +1,48 @@
+.app-footer-container{
+  background-color: #0D0D2B;
+  padding-bottom: 100px;
+}
+
+.app-footer-trademark-wrapper{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: max-content;
+}
+
+.app-footer-nav-links-container{
+  position: relative;
+  left: 70%;
+  width: max-content;
+}
+
+.app-footer-address-contact-info-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+  width: max-content;
+  margin-top: 50px;
+}
+.app-footer-address-contact-info-container div p{
+  font-family: 'Rubik-Medium', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.app-footer-address-contact-info-container div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.app-footer-address-contact-info-container div div svg{
+  width: 60px;
+  height: 60px;
+}
+
+.app-footer-copyright-container{
+  position: relative;
+  top: 100px;
+}

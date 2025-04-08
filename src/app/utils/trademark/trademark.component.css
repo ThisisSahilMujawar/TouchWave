@@ -1,0 +1,39 @@
+.app-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  align-self: center;
+}
+
+.app-logo-svg-container{
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  width: 68px;
+  border-radius: 100px;
+}
+.app-logo-svg-container svg{
+  border-radius: 100px;
+}
+.app-logo-title h3{
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.app-trademark-container{
+  display: flex;
+  align-items: center;
+  width: 208px;
+  height: 90px;
+
+}
+
+
+a{
+  text-decoration: none !important;
+}

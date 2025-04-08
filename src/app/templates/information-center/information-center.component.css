@@ -1,0 +1,54 @@
+.app-information-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 88px;
+  background: rgb(43, 7, 110);
+  background: linear-gradient(
+    180deg,
+    rgba(43, 7, 110, 1) 0%,
+    rgba(13, 13, 43, 1) 100%
+  );
+}
+
+.app-information-center-content-wrapper {
+  background-color: #3671e9;
+  padding: 48px;
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app-information-center-content h2 {
+  font-family: "Rubik-Bold", sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.app-information-center-content p {
+  font-family: "Rubik-Regular", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  width: 90%;
+}
+
+.app-get-in-touch-button {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #0d0d2b;
+  border-radius: 30px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.app-get-in-touch-button a {
+  font-family: "Rubik-Medium", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}

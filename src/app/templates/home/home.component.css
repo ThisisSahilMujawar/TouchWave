@@ -1,0 +1,116 @@
+
+.app-header-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 41px;
+}
+
+main{
+  height: 481px;
+  width: 588px;
+}
+
+.app-main-content{
+  height: 100vh;
+}
+
+.app-content{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ left: 160px;
+ top: 90px; 
+}
+
+.app-content div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.app-content div h1{
+  font-family: 'Rubik-Bold',sans-serif;
+  font-size: 64px;
+  color: #fff;
+}
+
+.app-content div p{
+  color: #E0E0E0;
+  font-family: 'Rubik-Regular',sans-serif;
+  font-size: 16px;
+}
+
+.app-content a button{
+  background-color: #3671E9;
+  width: fit-content;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  padding: 40px 31px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Rubik-Medium',sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+.app-content a{
+  margin-top: 42px;
+}
+
+.app-home-content-container{
+  display: flex;
+  gap: 250px;
+
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 90px;
+  justify-content: space-around;
+  
+}
+.app-aside-content-container{
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 82px;
+
+}
+
+.app-aside-content{
+  display: flex;
+  align-items: center;
+  width: 373px;
+  gap: 12px;
+
+}
+.app-aside-content .svg-container{
+  float: left;
+  position: relative;
+}
+
+.svg-container{
+  height: 90px !important;
+  width: 90px !important;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: overlay;
+}
+
+.app-aside-content p {
+  color: #E0E0E0;
+  font-family: 'Rubik-Medium',sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}

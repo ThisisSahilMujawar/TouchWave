@@ -1,0 +1,26 @@
+<nav>
+  @for (item of navLinks.slice(0,-1); track $index) {
+    <a 
+    routerLink="{{item.path}}" 
+    routerLinkActive="active">
+      <div>
+        <p>
+          {{item.label}}
+        </p>
+      </div>
+    </a>
+  }
+  @if (!footer) {
+    <div class="line"></div>
+  
+    <button>
+      <a routerLink="{{navLinks[navLinks.length-1].path}}">
+        <div>
+          <p>
+            {{navLinks[navLinks.length-1].label}}
+          </p>
+        </div>
+      </a>
+      </button>
+  }
+</nav>

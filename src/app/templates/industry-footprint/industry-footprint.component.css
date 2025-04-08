@@ -1,0 +1,82 @@
+.app-industry-footprint-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.app-industry-footprint-content-header-wrapper{
+  width: 70%;
+}
+.app-industry-footprint-content-header-wrapper h2 {
+  font-family: 'Rubik-Bold', sans-serif;
+  font-size: 40px;
+  color: #0D0D2B;
+  text-align: center;
+}
+
+.app-industry-footprint-main-content{
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 150px;
+  gap: 70px;
+}
+.app-industry-footprint-main-content-image-container img{
+  border-radius: 10px;
+}
+
+.app-industry-footprint-svg-container{
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #D9EFFF;
+  float: left;
+}
+
+.app-industry-footprint-icon-content-container{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.app-industry-footprint-icon-content-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-industry-footprint-content-title-description-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.app-industry-footprint-content-title-description-wrapper h2 ,
+.app-industry-footprint-content-title-description-wrapper p{
+  margin: 0;
+  padding: 0;
+}
+
+.app-industry-footprint-content-title-description-wrapper h2{
+  font-family: 'Rubik-Medium', sans-serif;
+  font-size: 20px;
+}
+
+.app-industry-footprint-content-title-description-wrapper p{
+  font-family: 'Rubik-Regular', sans-serif;
+  font-size: 16px;
+  color: #828282;
+}

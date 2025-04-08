@@ -1,0 +1,19 @@
+header{
+  width: 1256px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-trademark-container{
+  display: flex;
+  align-items: center;
+  width: 208px;
+  height: 90px;
+
+}
+
+section{
+  display: flex;
+  align-items: center;
+}

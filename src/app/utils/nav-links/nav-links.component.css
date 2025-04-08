@@ -1,0 +1,48 @@
+nav{
+  height: 52px;
+  /* width: 548px; */
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 2s ease-in-out;
+}
+
+nav button {
+  background-color: #3671E9;
+  width: 150px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  padding: 13px 31px;
+  cursor: pointer;
+}
+
+nav button a div p{
+  margin: 0  !important;
+  font-family: 'Rubik-Medium' ,sans-serif;
+  color: #fff;
+}
+
+nav a div p {
+  font-family: 'Rubik-Regular' ,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1%;
+
+}
+/* make vertical line of 28px and that merges at the end and of color that merges with background */
+.line{
+  height: 24px;
+  width: 1px;
+  background-color: #fff;
+  opacity: 0.2;
+}

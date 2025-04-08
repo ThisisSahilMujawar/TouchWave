@@ -1,0 +1,45 @@
+
+.app-value-proposition-content-container{
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  right: 90px
+}
+
+.svg-touch-container{
+  height: 687px;
+  width: 853px;
+}
+
+.touch-content{
+  color: #E0E0E0;
+  font-family: 'Rubik-Bold',sans-serif;
+  font-size: 36px;
+  position: relative;
+  top: 200px;
+}
+
+.touch-content p{
+  color: #E0E0E0;
+  font-family: 'Rubik-Regular',sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 2.5;
+}
+
+.learn-more-button a div p {
+  padding: 0;
+  margin: 0;
+}
+
+.learn-more-button{
+  background-color: #3671E9;
+  color: #fff;
+  font-family: 'Rubik-Medium',sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 30px;
+  height: 54px;
+  text-align: center;
+}
